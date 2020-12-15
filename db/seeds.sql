@@ -1,6 +1,7 @@
-INSERT INTO cats (name) VALUES ('Molly');
-INSERT INTO cats (name) VALUES ('Charlie');
-INSERT INTO cats (name, sleepy) VALUES ('Poppy', true);
-INSERT INTO cats (name, sleepy) VALUES ('Oscar', true);
-INSERT INTO cats (name, sleepy) VALUES ('Smudge', true);
-INSERT INTO cats (name) VALUES ('Daisy');
+SELECT * FROM burger_db.burger;
+INSERT INTO burger (name) VALUES
+INSERT INTO burger (name) VALUES ('Quarter Pounder');
+INSERT INTO burger (name, devour) VALUES ('Pub', true);
+INSERT INTO burger (name, devour) VALUES ('Double Royal', true);
+INSERT INTO burger (name, devour) VALUES ('Big Mac', true);
+INSERT INTO burger (name) VALUES ('Rodeo');
