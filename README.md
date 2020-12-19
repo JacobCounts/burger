@@ -35,7 +35,7 @@ npm install
 ## Testing: 
 npm test
 
-![](assets/images/Screen%20Shot%202020-12-18%20at%208.37.47%20PM.png)
+![](public/assets/images/Screen%20Shot%202020-12-18%20at%208.37.47%20PM.png)
 
 ## Questions? I can be contacted with the links below:   
 * email: infamous213@gmail.com
