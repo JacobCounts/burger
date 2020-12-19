@@ -1,39 +1,62 @@
 <h1>Burgers!</h1>
 
-<h2>Burgers ready to eat!</h2>
 
+<div class="container">
+  <div class="row">
+    <div class="col-4 text-center">
+      <h2>Burgers ready to eat!</h2>
+      <ul>
+        {{#each burgers}}
+        {{#unless devour}}
+        {{> burger/burger-block devour=true}}
+        {{/unless}}
+        {{/each}}
+      </ul>
+    </div>
+    <div class="col-4 text-center">
+      <img id="img" src="assets/images/burger.jpeg">
+      <h2>Add a Burger</h2>
+      <form class="create-form">
 
-<ul>
-  {{#each burgers}}
-    {{#unless devour}}
-      {{> burger/burger-block devour=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
-<h2>Burgers that you have devoured!</h2>
+        <div class="form-group">
+          <label for="ca">Burger Name:</label>
+          <input type="text" id="ca" name="name">
+        </div>
 
+        <div class="form-group">
+          <label for="devour">Devour Now?</label><br>
+          <input type="radio" name="devour" value="1" checked> Devour!<br>
+          <input type="radio" name="devour" value="0"> Eat
+        </div>
 
-<ul>
-  {{#each burgers}}
-    {{#if devour}}
-      {{> burger/burger-block devour=false}}
-    {{/if}}
-  {{/each}}
-</ul>
+        <button class="btn btn-primary" id="btn" type="submit">Save Burger for Later</button>
+      </form>
+    
+    </div>
+    <div class="col-4 text-center">
+  <h2>Burgers that you have devoured!</h2>
+      <ul>
+        {{#each burgers}}
+        {{#if devour}}
+        {{> burger/burger-block devour=false}}
+        {{/if}}
+        {{/each}}
+      </ul>
 
-<h2>Add a Burger</h2>
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="name">
+    </div>
   </div>
+</div>
 
-  <div class="form-group">
-    <label for="devour">Devour?</label><br>
-    <input type="radio" name="devour" value="1" checked> Devour!<br>
-    <input type="radio" name="devour" value="0"> Eat
-  </div>
 
-  <button type="submit">Add Burger</button>
-</form>
+
+
+
+
+
+
+
+
+
+
+
+

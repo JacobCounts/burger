@@ -1,21 +1,45 @@
 
+.body {
+  background-color: rgb(160, 105, 43);
+}
 
 li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
+  text-align:center;
 }
 
 .label {
   font-weight: bold;
+  text-align:center;
 }
 
-.create-update-form {
+.create-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
+  background: rgb(96, 129, 129);
 }
 
 .form-group {
   margin-bottom: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+h2 {
+  color: rgb(0, 0, 0);
+  text-align:center;
+}
+ul {
+  text-align: center;
+  font-size: 15px;
+}
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  
+}
+#img {
+  height: 200px;
+  width: 250px;
 }
