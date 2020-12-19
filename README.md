@@ -1,10 +1,10 @@
-# Eat Da-Burger
+# Burger Time
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
     
 ## Description: 
-Allows user to add a burger and devour it 
+Allows user to add a burger of their choice to a list and then choose to devour it or save it for later.
 
 ## Table of Contents:
 
@@ -38,4 +38,5 @@ npm test
 ## Questions? I can be contacted with the links below:   
 * email: infamous213@gmail.com
 * gitHub: [gitHub](https://github.com/JacobCounts)
+
 
